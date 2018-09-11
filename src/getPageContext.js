@@ -39,7 +39,7 @@ const theme2 = createMuiTheme({
 });
 function createPageContext(newTheme) {
   return {
-    theme : newTheme === 'artemis' ? theme2: theme,
+    theme : newTheme === 'dafault' ? theme2: theme,
     // This is needed in order to deduplicate the injection of CSS in the page.
     sheetsManager: new Map(),
     // This is needed in order to inject the critical CSS.

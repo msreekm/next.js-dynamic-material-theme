@@ -6,10 +6,10 @@ const nextRoutes = require('next-routes')
 //   theme - theme to apply for route
 const routesMap =  
    [
-    {name:'foo', page: "/foo", pattern: "", theme: "artemis" },
+    {name:'foo', page: "/foo", pattern: "", theme: "default" },
     {name:'bar', page: "/bar", pattern: "", theme: "traditional" },
     {name:'about', page: "/about", pattern: "", theme: "traditional" },
-    {name:'root', page: "/", pattern: "", theme: "artemis" }
+    {name:'root', page: "/", pattern: "", theme: "default" }
   ];
 
 const routes = nextRoutes()
